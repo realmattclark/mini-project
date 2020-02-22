@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/realmattclark/mini-project/issues"
   },
-  "homepage": "https://github.com/realmattclark/mini-project#readme"
+  "homepage": "https://github.com/realmattclark/mini-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
