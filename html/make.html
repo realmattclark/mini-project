@@ -14,15 +14,46 @@
 <body>
     <div class="jumbotron">
         <h1 class="display-4 d-flex justify-content-center">Hot Restaurant</h1>
-            <p class="lead d-flex justify-content-center">Make a Reservation.</p>
-            <hr class="my-4">
-            <p class="lead d-flex justify-content-center">Type in your information to be added to the reservations list.</p>
-            <p class="lead d-flex justify-content-center">
-                <a class="btn btn-primary btn-lg m-1" href="./home.html" role="button">Home</a>
-                <a class="btn btn-primary btn-lg m-1" href="./view.html" role="button">View List of Tables</a>
-            </p>
-    </div>
+        <p class="lead d-flex justify-content-center">Current Reservations and Waiting List</p>
+        <hr class="my-4">
+        <p></p>
+        <p class="lead d-flex justify-content-center">
+        <a class="btn btn-danger btn-lg m-1" href="view.html" role="button">View Tables</a>
+        <a class="btn btn-primary btn-lg m-1 fa fa-home" href="home.html" role="button">Home</a>
+        </p>
+    <div class="container mx-auto bg-light mt-5 border border-secondary">
+        <div class="container border-bottom border-secondary text-info p-3">
+        <h1>Make Your Reservation</h1>
+          </div>
+        <form>
+            <div class="form-group w-50 mx-auto mt-3">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+              </div>
+            <div class="form-group w-50 mx-auto mt-3">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+            </div>
+          
+            <div class="form-group w-50 mx-auto mt-3">
+                <label for="exampleFormControlInput1">Phone number</label>
+                <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="555-555-5555">
+              </div>
 
+
+            <div class="form-group w-50 mx-auto mt-3">
+                <label for="exampleFormControlInput1">Unique ID</label>
+                <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Whatever123">
+              </div>
+        
+              
+            </div>
+            <div class="form-group center_div w-25 mx-auto pt-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+          
+    </div>  
     
 </body>
 </html>
