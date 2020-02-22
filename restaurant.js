@@ -16,9 +16,9 @@ let waitList = [
     }
 ];
 let resevationList = [{
-  customerName: "bob",
+  customerName: "chris",
   phoneNumber: 125-345-6654,
-  customerEmail: "bob@gmail.com",
+  customerEmail: "chris@gmail.com",
   customerId: "6"
   }];
 
@@ -26,10 +26,6 @@ let resevationList = [{
     res.sendFile(path.join(__dirname, "index.html"));
   });
 
-  // app.get("/api/waitList", function(req, res) {
-  //   return res.json(waitList);
-  // });
-  
   app.get("/resteraunt/reserve", function(req, res) {
     res.sendFile(path.join(__dirname, "reserve.html"));
   });
