@@ -1,0 +1,26 @@
+{
+  "name": "hotrestaurant",
+  "version": "1.0.0",
+  "description": "make reservation and wait list restaurant",
+  "main": "restaurant.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realmattclark/mini-project.git"
+  },
+  "keywords": [
+    "hot",
+    "hot"
+  ],
+  "author": "Kevin Avery Matt Chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realmattclark/mini-project/issues"
+  },
+  "homepage": "https://github.com/realmattclark/mini-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
